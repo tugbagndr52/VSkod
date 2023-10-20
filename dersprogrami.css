@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    width: 50vw;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+   "haftalik ders plani"
+   "pazartesi  sali carsamba "
+   "persembe cuma"
+   ;
+   grid-template-columns: repeat(6,1fr);
+   grid-template-rows: repeat(4,1fr);
+}
+body> *{
+    background-color:green;
+}
+div:nth-child(1){
+   grid-area: haftalik ders plani;
+   background-color: aqua;
+}
+div:nth-child(pazartesi){
+    grid-area:pazartesi;
+    background-color: blueviolet;
+}
+div:nth-child(sali){
+    grid-area:sali;
+    background-color: blueviolet;
+}
+div:nth-child(carsamba){
+    grid-area: carsamba;
+    background-color: blueviolet;
+}
