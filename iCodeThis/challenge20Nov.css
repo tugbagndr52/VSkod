@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: rgb(36,0,26);
+    background: linear-gradient(90deg, rgba(36,0,26,1) 0%, rgba(235,14,211,0.7567401960784313) 35%, rgba(81,0,255,1) 100%);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login{
+    background-color: azure;
+    width: 400px;
+    height: 700px;
+    box-shadow: -1px -9px 2px 0px rgba(174, 176, 180, 0.6),0px -12px 4px 7px rgba(206, 208, 213, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ #login>img{
+    flex: 0 1 10%;
+    max-width: 30%;
+ }
+#login > h3{
+    flex: 0 1 5%;
+    max-width: 50%;
+}
+#login > p{
+    flex: 1 1 10%;
+    max-width: 80%;
+}
+#login >form{
+    flex: 0 1 50%;
+    max-width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+form > input{
+    flex: 1 1 80%;
+}
+form > input[type=checkbox]{
+    flex: 0 1 5%;
+}
+form > a{
+    flex: 1 1 60%;
+    text-align: center;
+}
+form > input[type=text],form>input[type=password] {
+    border: none;
+    height: 40px;
+    border-bottom: 3px solid rgb(200 120 200);
+    background-color: azure;
+}
+form > input[type=button]{
+   height: 50px;
+   border-radius: 5px ;
+   background-color: red;
+   border: none;
+   color: aqua;
+   text-transform: uppercase;
+}
+#btnKytOl{
+    background-color: blue;
+}
+form > i{
+    line-height: 50px;
+    padding-top: 20%;
+    background-color: aqua;
+}
