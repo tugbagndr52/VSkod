@@ -78,7 +78,7 @@ button{
 }
 button > p{
     text-align: left;
-    flex: 0 0 50%;
+    flex: 0 0 30%;
     line-height: 50px;
 }
 .material-symbols-outlined {
