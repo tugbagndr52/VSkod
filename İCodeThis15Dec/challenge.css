@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    align-items: center;
+    min-height: 100vh;
+}
+main{
+    height: 50vh;
+    width: 100%;
+    background-image: url("/background.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div{
+    flex: 1 1 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+h1{
+    color: white;
+    margin-bottom: 20px;
+}
+h3{
+    color: rgb(182, 180, 180);
+}
+p{
+    color: rgb(182, 180, 180);
+}
